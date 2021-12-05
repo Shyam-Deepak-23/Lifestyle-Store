@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Lifestyle Store | Settings</title>
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index2.html">
+                <img src="Images/logo.png" width="40" height="30" id="logoImage" class="image-responsive" alt="">
+                <span id="logoText">Lifestyle Store</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                </div>
+                <div class="mx-2">
+                    <a href="cart.html" class="navbar-button">
+                        <button class="btn loginform">Cart</button>
+                    </a>
+
+                    <a href="#" class="navbar-button">
+                        <button class="btn loginform">Settings</button>
+                    </a>
+                    <button class="btn loginform">Log Out</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+   
+
+    <div class="container settingsStyling settingsBody">
+        <h2>Change password</h2>
+        <div class="margin">
+            <input type="password" class="input-width" placeholder="Old Password">
+        </div>
+        <div class="margin">
+           
+            <input type="password" class="input-width" id="newpassword" placeholder="New Password">
+        </div>
+
+
+        <div class="margin">
+            
+            <input type="password" class="input-width" placeholder="Re-enter Password">
+        </div>
+
+        
+            <button class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#ChangeModal">Change</button>
+         
+
+
+
+
+    </div>
+
+    <!--Change Modal -->
+    <div class="modal fade" id="ChangeModal" tabindex="-1" aria-labelledby="ChangeModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ChangeModalLabel">Password Change Information</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <h4>Password Changed Successfully!</h4>
+                
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Region -->
+
+    <footer class="container-fluid footerContainer">
+        <p>Copyrights © Lifestyle Store. All rights reserved.| Contact Us @ +91 90000 90000.
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

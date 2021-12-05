@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Lifestyle Store</title>
+</head>
+
+<body>
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="Images/logo.png" width="40" height="30" id="logoImage" class="image-responsive" alt="">
+                <span id="logoText">Lifestyle Store</span> </a>
+            
+            <div class="mx-2">
+
+                <button class="btn loginform" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                <button class="btn loginform" data-bs-toggle="modal" data-bs-target="#SignupModal">Sign Up</button>
+            </div>
+        </div>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="Images/logo.png" width="40" height="30" id="logoImage" class="image-responsive" alt="">
+                <span id="logoText">Lifestyle Store</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                </div>
+                <div class="mx-2">
+
+                    <button class="btn loginform" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                    <button class="btn loginform" data-bs-toggle="modal" data-bs-target="#SignupModal">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!--Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login to Lifestyle store</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3 row">
+                        <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="staticEmail">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Sign Up Modal -->
+    <div class="modal fade" id="SignupModal" tabindex="-1" aria-labelledby="SignupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="SignupModalLabel">Create A Lifestyle Store Account</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3 row">
+                        <label for="Name" class="col-sm-2 col-form-label">Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="Name">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="staticEmail">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="cinputPassword" class="col-sm-2 col-form-label">Confirm Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="cinputPassword">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="contact" class="col-sm-2 col-form-label">Contact </label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control" id="contact">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="City" class="col-sm-2 col-form-label">City</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="City">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Create Account</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Images/bgimage4.jpg" class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Premium Watches And Cameras<h5>
+                            <a href="product.html" class="shopButton">Shop Now</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Images/bgimage8.jpg" class="d-block w-100 img-fluid" alt="...">
+
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Branded Clothing</h5>
+                    <a href="product.html" class="shopButton">Shop Now</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Images/bgimage9.jpg" class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Gadgets And Shoes</h5>
+                    <a href="product.html" class="shopButton">Shop Now</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </div>
+
+    <footer class="container-fluid footerContainer">
+        <p>Copyrights © Lifestyle Store. All rights reserved.| Contact Us @ +91 90000 90000.
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

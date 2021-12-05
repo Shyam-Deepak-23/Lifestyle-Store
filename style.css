@@ -1,0 +1,153 @@
+#logoText{
+    padding-left: 16px;
+    font-size: 26px;
+
+}
+
+#logoText:hover{
+    color: rgb(143, 143, 146);
+}
+
+#logoImage{
+    border-radius: 50%;
+}
+
+.d-flex a{
+    text-decoration: none;
+    color: white   ;
+    border: 2px solid whitesmoke;
+    padding: 8px 14px;
+    border-radius: 4px 0px;
+    margin: 10px;
+}
+
+.d-flex a:hover{
+    background-color: black;
+}
+
+.loginform{
+    background-color: #212529;
+    border: 2px solid white;
+    border-radius: 4px 0px;
+    margin-right: 20px; ;
+    color: white;
+}
+
+.loginform:hover{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+}
+
+.shopButton{
+    text-decoration: none;
+    background-color: rgb(161, 35, 35);
+    color: rgb(17, 7, 7)   ;
+    border: 2px solid whitesmoke;
+    padding: 8px 14px;
+    border-radius: 4px 0px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.shopButton:hover{
+    color:black;
+
+    background-color: rgb(131, 22, 2)  ;
+}
+
+.navbar-button{
+    text-decoration: none;
+}
+
+.carousel-item h5{
+    margin: 30px;
+}
+
+.footerContainer{
+    background-color: black;
+    color: whitesmoke;
+    height: 40px;
+    text-align: center;
+}
+
+/* product page */
+#productBody{
+    background-color: rgb(117, 106, 106);
+}
+.jumbotron{
+    background-color: rgb(160, 144, 144);
+    text-align: center;
+    padding: 40px 0px;
+}
+
+/* #image1{
+    height: 282px;
+} */
+
+.caption{
+    text-align: center;
+    text-decoration: none;
+}
+
+.thumbnail-link{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.thumbnail-link:hover{
+    color: rgb(61, 53, 53);
+}
+
+.thumbnail-border{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+ 
+    margin-top: 15px;
+    
+    
+    /* margin-right: 5px; */
+    -webkit-transition:border .2s ease-in-out;
+         -o-transition:border .2s ease-in-out;
+            transition:border .2s ease-in-out;
+}
+
+.img-thumbnail{
+    border: none;
+    height: 300px;
+    width: 400px;
+}
+
+/* cart page */
+.row-height{
+    height: 50px;
+}
+
+/* .cartBody{
+    height: 85vh;
+    
+} */
+
+/* Settings page */
+
+.settingsBody{
+    height: 80vh;
+}
+
+.settingsStyling{
+            
+    text-align: center;
+    margin: 24px;
+    
+    
+}
+
+.margin{
+    margin: 2%;
+}
+
+.input-width{
+    width: 30%;
+}
